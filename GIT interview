@@ -1,0 +1,20 @@
+
+What is  Git?
+It is mainly used for source code management in s/w development but it is able to be used to keep track of modifications in any set of documents or files
+
+ How can you create a repository in Git?
+This is probably the most frequently asked question and the answer to this is really simple.
+To create a repository, create a directory for the project if it does not exist, then run the command “git init”. By running this command .git directory will be created in the project directory.
+
+what are the main commands in git?
+ 1)git clone URL
+ 2)git branch branchname-its used for create branch
+ 3)git checkout branchname-its used for switced to another branch
+ 4)git branch -d branchname -its used for delete branch
+ 5)git branch -a   its used for list the branches
+ 
+ how to commit the code?
+    git add filename
+    git commit -m "message"
+    git push -u origin branchname
+ 
